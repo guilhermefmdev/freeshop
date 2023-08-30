@@ -1,0 +1,27 @@
+.search-bar {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    max-width: 500px;
+    justify-content: space-between;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.171);
+}
+
+.search-input {
+    padding: 13px;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+}
+
+.search-button {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(109, 108, 108);
+    cursor: pointer;
+    padding: 0 13px;
+}
